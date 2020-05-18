@@ -6,7 +6,7 @@ final_string = " "
 outer_count = 0
 while outer_count < src.length do
   inner_count = 0
-  if src[outer_count][inner_count].is_a? 
+  if src[outer_count][inner_count].is_a? String 
     
 end
   
