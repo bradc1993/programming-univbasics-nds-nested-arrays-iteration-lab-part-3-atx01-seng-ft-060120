@@ -7,7 +7,7 @@ outer_count = 0
 while outer_count < src.length do
   inner_count = 0
   while inner_count < src[outer_count].length do
-    final_string += src[outer_count][inner_count]
+    final_string += src[outer_count][inner_count].to_s
     inner_count += 1
   end
   outer_count += 1
