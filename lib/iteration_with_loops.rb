@@ -6,13 +6,8 @@ final_string = " "
 outer_count = 0
 while outer_count < src.length do
   inner_count = 0
-  while inner_count < src[outer_count].length do
-    final_string  src[
-    inner_count += 1
-  end
-  outer_count += 1
-end
-final_string
+  if src[outer_count][inner_count].is_a? 
+    
 end
   
     
